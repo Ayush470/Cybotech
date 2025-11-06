@@ -1,0 +1,142 @@
+import type { Course, Student } from './types';
+
+export const COURSES_DATA: Course[] = [
+  {
+    name: 'Advanced Diploma in Computer Application (ADCA)',
+    duration: '12 Months',
+    modules: [
+      'Computer Fundamentals',
+      'Operating System',
+      'MS Office (Word, Excel, PowerPoint)',
+      'Database Management System',
+      'Tally with GST',
+      'Programming in C',
+      'Web Designing (HTML, CSS, JavaScript)',
+    ],
+  },
+  {
+    name: 'Diploma in Computer Application (DCA)',
+    duration: '6 Months',
+    modules: [
+      'Computer Fundamentals & OS',
+      'Microsoft Office Suite',
+      'Internet & E-Commerce',
+      'Introduction to PC Hardware',
+      'Communication Skills',
+    ],
+  },
+  {
+    name: 'Certificate in Financial Accounting & Management (CFAM)',
+    duration: '6 Months',
+    modules: [
+      'Basics of Accountancy',
+      'Tally Prime with GST',
+      'Advanced Excel',
+      'Banking & Financial Services',
+      'Payroll Management',
+    ],
+  },
+  {
+    name: 'Spoken English & Communication Skills',
+    duration: '3 Months',
+    modules: [
+      'Basic Grammar & Vocabulary',
+      'Pronunciation & Fluency',
+      'Public Speaking & Presentation Skills',
+      'Group Discussions & Interviews',
+      'Personality Development',
+    ],
+  },
+  {
+    name: 'Desktop Publishing (DTP)',
+    duration: '4 Months',
+    modules: [
+      'Adobe PageMaker',
+      'CorelDRAW',
+      'Adobe Photoshop',
+      'Typography and Layout Design',
+      'Printing Technologies',
+    ],
+  },
+  {
+    name: 'Programming in C & C++',
+    duration: '4 Months',
+    modules: [
+      'Fundamentals of Programming',
+      'Data Types and Variables',
+      'Control Structures and Functions',
+      'Object-Oriented Programming (OOPs)',
+      'Data Structures and Algorithms',
+    ],
+  },
+];
+
+// Student Database
+export const STUDENTS_DATA: Student[] = [
+    {
+        certificateNumber: 'CYBO-ADCA-001',
+        name: 'Priya Sharma',
+        courseName: 'Advanced Diploma in Computer Application (ADCA)',
+        dateOfBirth: '1998-05-15',
+        registrationId: 'REG-2023-001',
+        batch: '2023-A',
+        year: 2024,
+        verificationStatus: 'Verified',
+        imageUrl: 'https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?q=80&w=2053&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    },
+    {
+        certificateNumber: 'CYBO-DCA-002',
+        name: 'Amit Kumar',
+        courseName: 'Diploma in Computer Application (DCA)',
+        dateOfBirth: '2000-11-22',
+        registrationId: 'REG-2023-002',
+        batch: '2023-B',
+        year: 2024,
+        verificationStatus: 'Verified',
+        imageUrl: 'https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    },
+     {
+        certificateNumber: 'CYBO-ENG-003',
+        name: 'Sunita Devi',
+        courseName: 'Spoken English & Communication Skills',
+        dateOfBirth: '1999-02-10',
+        registrationId: 'REG-2024-003',
+        batch: '2024-A',
+        year: 2024,
+        verificationStatus: 'Verified',
+        imageUrl: 'https://images.unsplash.com/photo-1613323592334-ab7692b6165e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    },
+    {
+        certificateNumber: 'CYBO-CFAM-004',
+        name: 'Rohan Mehra',
+        courseName: 'Certificate in Financial Accounting & Management (CFAM)',
+        dateOfBirth: '2001-08-30',
+        registrationId: 'REG-2024-004',
+        batch: '2024-A',
+        year: 2024,
+        verificationStatus: 'Verified',
+        imageUrl: 'https://images.unsplash.com/photo-1557862921-37829c790f19?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    },
+    {
+        certificateNumber: 'CYBO-DTP-005',
+        name: 'Anjali Singh',
+        courseName: 'Desktop Publishing (DTP)',
+        dateOfBirth: '2002-01-12',
+        registrationId: 'REG-2024-005',
+        batch: '2024-B',
+        year: 2024,
+        verificationStatus: 'Pending',
+        imageUrl: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    },
+    {
+        certificateNumber: 'CYBO-CPP-006',
+        name: 'Vikram Batra',
+        courseName: 'Programming in C & C++',
+        dateOfBirth: '2000-07-25',
+        registrationId: 'REG-2023-006',
+        batch: '2023-C',
+        year: 2024,
+        verificationStatus: 'Verified',
+        imageUrl: 'https://images.unsplash.com/photo-1628157588553-5eeea00af15c?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    }
+];
