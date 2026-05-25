@@ -13,6 +13,7 @@ import { AuthProvider } from './components/Auth';
 import ProtectedRoute from './components/ProtectedRoute';
 
 const App: React.FC = () => {
+  console.log("okay");
   return (
     <HashRouter>
       <AuthProvider>
